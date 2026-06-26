@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "WA Group Extractor",
+  "version": "1.0",
+  "description": "Extracts members from WhatsApp Web groups easily.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "549654445512-lq5hghnsm4krb3efbr2h13oa2musn3ns.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
